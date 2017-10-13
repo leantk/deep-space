@@ -48,6 +48,13 @@ public class UserAcceptanceTests
     	String pageTitle = this.driver.getTitle();
     	assertEquals("Bootcamp Demo App", pageTitle);
     }
+
+    public void testTitle1()
+    {
+        this.driver.get(this.siteUrl);
+    	String pageTitle = this.driver.getTitle();
+    	assertEquals("Bootcamp Demo App", pageTitle);
+    }
     
     //public void testDefaultSpeedText()
     //{
