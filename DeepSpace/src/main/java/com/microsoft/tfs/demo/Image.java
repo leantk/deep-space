@@ -36,7 +36,7 @@ public class Image {
 
 
     public String getSrc() {
-        return src;
+        return src // build break!
     }
 
     public void setSrc(final String src) {
