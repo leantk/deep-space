@@ -29,19 +29,19 @@
  */
 package com.microsoft.tfs.demo;
 
-import com.microsoft.applicationinsights.TelemetryClient;
+//import com.microsoft.applicationinsights.TelemetryClient;
 //import com.microsoft.applicationinsights.internal.schemav2.MetricData;
-import com.microsoft.applicationinsights.telemetry.RequestTelemetry;
+//import com.microsoft.applicationinsights.telemetry.RequestTelemetry;
 
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
-import javax.ws.rs.Produces;
-import javax.ws.rs.core.MediaType;
-import java.io.File;
-import java.util.Date;
-import java.util.List;
-import java.util.ArrayList;
+//import javax.ws.rs.GET;
+//import javax.ws.rs.Path;
+//import javax.ws.rs.PathParam;
+//import javax.ws.rs.Produces;
+//import javax.ws.rs.core.MediaType;
+//import java.io.File;
+//import java.util.Date;
+//import java.util.List;
+//import java.util.ArrayList;
 
 @Path("/images")
 public class ImageService {
